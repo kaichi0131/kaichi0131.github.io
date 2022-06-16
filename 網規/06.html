@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="06.css">
+    <link rel="stylesheet" media="screen and (max-width: 376px)" href="phone06.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px) and (min-width: 377px)" href="tablet06.css">
+</head>
+
+<body style="background-color:#58639A">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo 1.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img class="navlist" src="codicon_list-filter.png" alt=""></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active page ing-click" aria-current="page" href="index.html">在讀書單</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page already-click" href="index.html">想/已讀書單</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            讀後心得
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="03.html">你的心得</a></li>
+                            <li><a class="dropdown-item list" href="03.html">心得撰寫</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            社群交流
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#ing">熱門書籍</a></li>
+                            <li><a class="dropdown-item list" href="#already">讀者心得分享</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="ing">
+        <div class="background"></div>
+        <div class="square"></div>
+        <p class="maintitle">熱門書籍</p>
+        <div class="box">
+            <img class="cover-fit" src="Rectangle 9.png" alt="">
+        </div>
+        <div class="title1">
+            <input type="button" disabled="disabled" class="title" value="1">
+            <div class="phone">
+                <p class="title11">設計的心理學：</p>
+                <p class="title11">人性化的產品設計如何改變世界</p>
+                <p class="content11">唐納‧諾曼</p>
+            </div>
+        </div>
+        <div class="box2">
+            <img class="cover-fit" src="Rectangle 10.png" alt="">
+        </div>
+        <div class="title2">
+            <input type="button" disabled="disabled" class="title" value="2">
+            <div class="phone2">
+                <p class="title11">《沙丘》電影美術設定集</p>
+                <p class="title11">The Art and Soul of Dune</p>
+                <p class="content11">Insight Editions, Lapointe, Tanya</p>
+            </div>
+        </div>
+        <div class="box3">
+            <img class="cover-fit" src="Rectangle 11.png" alt="">
+        </div>
+        <div class="title3">
+            <input type="button" disabled="disabled" class="title" value="3">
+            <div class="phone3">
+                <p class="title11">This Book Is for You</p>
+                <p class="content11">Worry Lines</p>
+            </div>
+        </div>
+        <p class="findmore">查看更多</p>
+        <div class="more">
+            <p class="arrow">➜</p>
+        </div>
+    
+    </div>
+    <div id="already">
+        <div id="share">
+            <div class="container2">
+                <div class="row justify-content-center share">
+                    <h1 class="maintitle2">讀者心得分享</h1>
+                    <p class="bookname2">熱門心得<button type="button" class="more2">查看更多</button></p>
+                    <img class="banner2" src="part3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 align-self-end goTop">
+        <a href="#" class="goTopBtn jq-goTop">
+            <img class="tablet5" src="bi_arrow-down-circle-fill.png" alt="">
+        </a>
+    </div>
+    <div class="banner">
+        <div class="container computer">
+            <div class="row">
+                <div class="col col1 computer2">
+                    <P class="username"><img class="userphoto" src="Ellipse 13.png" alt="">Audrey<span
+                            class="time">30分鐘</span></P>
+                    <button type="button" class="bookname">一看就懂配色設計</button>
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" hidden />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" hidden />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" hidden />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" hidden />
+                        <label for="star2"></label>
+                    </div>
+                    <p class="check">
+                        <img class="eyeicon" src="fe_eye.png" alt="">60
+                        <input type="image" class="comment" src="fa-solid_comment-dots.png" alt=""><span class="check2">6</span>
+                        <input type="image" class="like" src="ci_heart-fill.png" alt=""><span class="check2">24</span>
+                    </p>
+                </div>
+                <div class="col col2">
+                    <P class="username"><img class="userphoto" src="Ellipse 14.png" alt="">Jason<span
+                            class="time">3小時</span></P>
+                    <button type="button" class="bookname">微調有差の日系新版面設計</button>
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" hidden />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" hidden />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" hidden />
+                        <label for="star3"></label>
+                    </div>
+                    <p class="check">
+                        <img class="eyeicon" src="fe_eye.png" alt="">30
+                        <input type="image" class="comment" src="fa-solid_comment-dots.png" alt=""><span class="check2">3</span>
+                        <input type="image" class="like" src="ci_heart-fill.png" alt=""><span class="check2">15</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col1">
+                    <P class="username"><img class="userphoto" src="Ellipse 15.png" alt="">Rosaline<span
+                            class="time">8小時</span></P>
+                    <button type="button" class="bookname">This Book Is for You</button>
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" hidden />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" hidden />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" hidden />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" hidden />
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" hidden />
+                        <label for="star1"></label>
+                    </div>
+                    <p class="check">
+                        <img class="eyeicon" src="fe_eye.png" alt="">30
+                        <input type="image" class="comment" src="fa-solid_comment-dots.png" alt=""><span class="check2">8</span>
+                        <input type="image" class="like" src="ci_heart-fill.png" alt=""><span class="check2">20</span>
+                    </p>
+                </div>
+                <div class="col col3">
+                    <P class="username"><img class="userphoto" src="Ellipse 16.png" alt="">Marvin<span
+                            class="time">1天</span></P>
+                    <button type="button" class="tablet2 tablet">基本設計力：簡單卻效果超群</button>
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" hidden />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" hidden />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" hidden />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" hidden />
+                        <label for="star2"></label>
+                    </div>
+                    <p class="check">
+                        <img class="eyeicon" src="fe_eye.png" alt="">60
+                        <input type="image" class="comment" src="fa-solid_comment-dots.png" alt=""><span class="check2">5</span>
+                        <input type="image" class="like" src="ci_heart-fill.png" alt=""><span class="check2">18</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".jq-goTop").click(function (e) {
+            e.preventDefault();
+            $("html,body").animate(
+                {
+                    scrollTop: 0,
+                },
+                600
+            );
+        });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 200) {
+                if ($(".goTop").hasClass("hide")) {
+                    $(".goTop").toggleClass("hide");
+                }
+            } else {
+                $(".goTop").addClass("hide");
+            }
+        });
+        $('.share-click').click(function () {
+                $('html,body').animate({ scrollTop: $('#share').offset().top }, 800);
+            });
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>

@@ -6,247 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" media="screen and (max-width: 376px)" href="phoneindex.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px) and (min-width: 377px)" href="tabletindex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="05.css">
+    <link rel="stylesheet" media="screen and (max-width: 376px)" href="phone05.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px) and (min-width: 377px)" href="tablet05.css">
 </head>
 
-<body style="background-color:#58639A;">
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="logo 1.png" alt="" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active page ing-click" aria-current="page" href="#ing">在讀書單</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page already-click" href="#already">想/已讀書單</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            讀後心得
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="03.html">你的心得</a></li>
-                            <li><a class="dropdown-item" href="03.html">心得撰寫</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            社群交流
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="06.html">熱門書籍</a></li>
-                            <li><a class="dropdown-item" href="06.html">讀者心得分享</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="banner">
-        <div class="quote">
-            <p>登<span class="moon">閱</span>計畫</p>
-            <p class="maintitle2">開始屬於你的閱讀旅程</p>
-        </div>
+<body style="background-color:#BCC5E4">
+    <div class="loading">
+        <div><img class="logo" src="Component 6.png" alt=""></div>
     </div>
-    <div id="ing">
+    <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 pt-3 phone">
-                    <p class="maintitle">目標:<span class="title">連續打卡</span><span class="title1">30</span><span
-                            class="title">天</span></p>
-                </div>
-                <div class="col-md-6 col-12 pt-3 phone1">
-                    <p class="maintitle4">在讀書單</p>
-                </div>
+                <p class="title2">
+                    <button type="button" class="title1">登入</button>｜
+                    <button type="button" class="title">註冊</button>
+                </p>
             </div>
             <div class="row">
-                <div class="col-md-6 col-12"><img class="img-fluid" src="Group 115.png" alt=""></div>
-                <div class="col-md-6 col-12 phone2">
-                    <div class="row">
-                        <div class="col-3 tablet"><input type="image" name="submit_Btn" id="submit_Btn" img
-                                src="Rectangle 18.png" onClick="location.href='02.html'"></div>
-                        <div class="col-6">
-                            <p><button type="button" class="title2" onClick="location.href='02.html'">一看就懂配色設計</button>
-                            </p>
-                            <p class="content">Arenski</p>
-                            <p class="content">30天．50%</p>
-                        </div>
-                        <div class="col-3 align-self-end tablet3"><span class="title2">250</span><span
-                                class="content3">/500</span>
-                        </div>
-                    </div>
-                    <hr class="line" size="5px">
-                    <div class="row tablet2">
-                        <div class="col-3 tablet2"><img id="submit_Btn" src="Rectangle 19.png" alt=""></div>
-                        <div class="col-6">
-                            <p class="title2">微調有差的日系新版面設計</p>
-                            <p class="content">Ingectar-e</p>
-                            <p class="content">15天．10%</p>
-                        </div>
-                        <div class="col-3 align-self-end tablet7"><span class="title2">20</span><span
-                                class="content3">/200</span>
-                        </div>
-                    </div>
-                    <hr class="line2" size="5px">
-                    <div class="row">
-                        <div class="col-3 pb-4 tablet2"><img id="submit_Btn" src="Rectangle 20.png" alt=""></div>
-                        <div class="col-6 pb-4">
-                            <p class="title2">基本設計力:簡單卻效果超群</p>
-                            <p class="content">宇治智子</p>
-                            <p class="content">03天．04%</p>
-                        </div>
-                        <div class="col-3 align-self-end tablet4 "><span class="title2">10</span><span
-                                class="content3">/250</span>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <p class="content2">查看更多</p>
-                    </div>
-                </div>
+                <p class="account">帳號</p>
+                <input type="text" name="txt1" class="text">
+            </div>
+            <div class="row">
+                <p class="account">密碼</p>
+                <input type="password" name="txt1" class="text2">
+            </div>
+            <div class="row">
+                <p class="forget">忘記密碼</p>
             </div>
         </div>
+        <a href="01.html" class="shape-ex1">開始計畫</a>
+        <p><a href="01.html" class="guass">以訪客身分</a></p>
+
     </div>
-    <div id="already">
-        <div style="background-color:#7882A5;">
-            <div class="banner2">
-                <div class="quote2">
-                    <h1 class="maintitle4 pt-4 phone3" align="center" valign="center">想/已讀書單</h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-12 pt-0">
-                                <p class="title31">
-                                    <button type="button" class="title3">想讀</button>｜
-                                    <button type="button" class="maintitle3">已讀</button>
-                                </p>
-                            </div>
-                            <div class="col-6 pt-0"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <div class="row phone4">
-                                    <div class="col-3"><img id="submit_Btn" src="Rectangle 9.png" alt=""></div>
-                                    <div class="col-6">
-                                        <p class="title22"><span class="tablet6">設計的心理學：人性化的</span><span
-                                                class="tablet6">產品設計如何改變世界</span></p>
-                                        <p class="content">唐納‧諾曼</p>
-                                    </div>
-                                </div>
-                                <hr class="line3" size="5px">
-                                <div class="row phone4">
-                                    <div class="col-3"><img id="submit_Btn" src="Rectangle 10.png" alt=""></div>
-                                    <div class="col-6">
-                                        <p class="title22"><span class="tablet6">《沙丘》電影美術設定集</span><span
-                                                class="tablet6">The Art and Soul of Dune</span></p>
-                                        <p class="content12">Insight Editions, Lapointe</p>
-                                    </div>
-                                </div>
-                                <hr class="line3" size="5px">
-                                <div class="row phone4">
-                                    <div class="col-3 pb-4"><img id="submit_Btn" src="Rectangle 11.png" alt=""></div>
-                                    <div class="col-6 pb-4">
-                                        <p class="title22 tablet6">This Book Is for You</p>
-                                        <p class="content">Worry Lines</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="row disappear">
-                                    <div class="col-3"><img id="submit_Btn" src="Rectangle 18.png" alt=""></div>
-                                    <div class="col-6">
-                                        <p class="title2">一看就懂配色設計</p>
-                                        <p class="content">Arenski</p>
-                                    </div>
-                                </div>
-                                <hr class="line disappear" size="5px">
-                                <div class="row disappear">
-                                    <div class="col-3"><img id="submit_Btn" src="Rectangle 19.png" alt=""></div>
-                                    <div class="col-6">
-                                        <p class="title2"><span class="tablet6">微調有差的日系新版面</span>設計</p>
-                                        <p class="content">Ingectar-e</p>
-                                    </div>
-                                </div>
-                                <hr class="line disappear" size="5px">
-                                <div class="row disappear">
-                                    <div class="col-3 pb-4"><img id="submit_Btn" src="Rectangle 20.png" alt=""></div>
-                                    <div class="col-6 pb-4">
-                                        <p class="title2"><span class="tablet6">基本設計力:簡單卻效果超群</span></p>
-                                        <p class="content">宇治智子</p>
-                                    </div>
-                                    <div class="col-3 align-self-end goTop">
-                                        <a href="#" class="goTopBtn jq-goTop">
-                                            <img class="tablet5" src="bi_arrow-down-circle-fill.png" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="justify-content-center">
-                            <p class="content4 more pb-4">查看更多</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
 
-
-        <script>
-            $(".jq-goTop").click(function (e) {
-                e.preventDefault();
-                $("html,body").animate(
-                    {
-                        scrollTop: 0,
-                    },
-                    600
-                );
-            });
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 200) {
-                    if ($(".goTop").hasClass("hide")) {
-                        $(".goTop").toggleClass("hide");
-                    }
-                } else {
-                    $(".goTop").addClass("hide");
-                }
-            });
-
-            $('.ing-click').click(function () {
-                $('html,body').animate({ scrollTop: $('#ing').offset().top }, 800);
-            });
-            $('.already-click').click(function () {
-                $('html,body').animate({ scrollTop: $('#already').offset().top }, 800);
-            });
-
-            $('.title3').click(function () {
-                $('.title3').addClass('blue1');
-                $('.title3').removeClass('blue2');
-                $('.maintitle3').addClass('blue2');
-                $('.maintitle3').removeClass('blue1');
-            });
-            $('.maintitle3').click(function () {
-                $('.maintitle3').addClass('blue1');
-                $('.maintitle3').removeClass('blue2');
-                $('.title3').addClass('blue2');
-                $('.title3').removeClass('blue1');
-            });
-        </script>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(window).on('load',function(){
+            $('.loading').fadeOut(2000);
+        });
+        $('.title1').click(function(){
+           $('.title1').addClass('blue2');
+           $('.title1').removeClass('blue1');
+           $('.title').addClass('blue1');
+           $('.title').removeClass('blue2');
+        });
+        $('.title').click(function(){
+           $('.title').addClass('blue2');
+           $('.title').removeClass('blue1');
+           $('.title1').addClass('blue1');
+           $('.title1').removeClass('blue2');
+        });
+    </script>
 </body>
 
 </html>

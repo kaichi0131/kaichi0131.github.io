@@ -1,0 +1,410 @@
+body {
+    cursor:url(a6ugn-zhit0-001.ico),pointer;
+  }
+
+.banner {
+    margin-top: 50px;
+    margin-left: -60px;
+    width: 150%;
+    height: 280px;
+    background-image:
+        linear-gradient(to bottom, rgba(88, 99, 154, 0), rgba(88, 99, 154, 1)),
+        url("part1.png");
+    background-size: cover;
+}
+
+.quote {
+    width: 50%;
+    margin-top: -165px;
+    font-size: 28px;
+    color: #BCC5E4;
+    padding-left: 80px;
+    letter-spacing: 10px;
+}
+
+@keyframes box {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.moon {
+    color: #F8FAFD;
+    animation-name: box;
+    animation-duration: 4s;
+}
+
+.phone {
+    margin-top: -25px;
+    margin-left: -75px;
+}
+
+.phone1 {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.phone2 {
+    margin-top: -280px;
+    margin-left: 10px;
+}
+
+.phone3 {
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.phone4 {
+    margin-left: -23px;
+}
+
+.maintitle {
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: -15px;
+    color: #F8FAFD;
+    font-size: 21px;
+    letter-spacing: 6px;
+    width: 100%;
+}
+
+.maintitle2 {
+    margin-top: -5px;
+    color: #F8FAFD;
+    font-size: 12px;
+    letter-spacing: 6px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s forwards steps(10);
+}
+
+#submit_Btn {
+    width: 100%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 180px;
+    }
+}
+
+.title {
+    color: #F8FAFD;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.title1 {
+    color: #F8FAFD;
+    font-size: 21px;
+    letter-spacing: 10px;
+}
+
+.title2 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+    white-space: nowrap;
+}
+
+.title21 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    background-color: transparent;
+    border: none;
+    margin-top: -12px;
+}
+
+.title22 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.content12 {
+    color: #BCC5E4;
+    font-size: 12px;
+    line-height: 10px;
+    white-space: nowrap;
+}
+
+.tablet6 {
+    white-space: nowrap;
+}
+
+.content {
+    color: #BCC5E4;
+    font-size: 12px;
+    line-height: 5px;
+}
+
+.content2 {
+    color: #BCC5E4;
+    font-size: 16px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+}
+
+.more {
+    padding-top: 10px;
+}
+
+.content3 {
+    color: #BCC5E4;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.content4 {
+    color: #BCC5E4;
+    font-size: 16px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -385px;
+    margin-bottom: 15px;
+    margin-left: -40px;
+}
+
+.line {
+    width: 95%;
+    margin-top: 3px;
+    margin-bottom: 18px;
+}
+
+.line2 {
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.line3 {
+    width: 95%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-left: -10px;
+}
+
+.row1 {
+    width: 90%;
+}
+
+.tablet5 {
+    margin-bottom: 2px;
+    margin-left: -18px;
+}
+
+.tablet2 {
+    margin-bottom: -12px;
+    margin-top: -3px;
+}
+
+.tablet3 {
+    margin-bottom: 2px;
+    margin-left: -30px;
+}
+
+.tablet4 {
+    margin-bottom: 34px;
+    margin-left: -18px;
+}
+
+.tablet7 {
+    margin-left: -18px;
+}
+
+.img-fluid {
+    padding-top: 23px;
+    width: 70%;
+    opacity: 0;
+}
+
+.maintitle3 {
+    color: #BCC5E4;
+    font-size: 18px;
+    letter-spacing: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+.title3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+.title31 {
+    color: #BCC5E4;
+    font-size: 21px;
+    letter-spacing: 8px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.blue1 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.blue2 {
+    color: #BCC5E4;
+    font-size: 22px;
+    letter-spacing: 10px;
+}
+
+.banner2 {
+    margin-top: 20px;
+    width: 200%;
+    background-image:
+        linear-gradient(to bottom, rgba(88, 99, 154, 0), rgba(88, 99, 154, 1)),
+        url();
+    background-size: cover;
+}
+
+.quote2 {
+    width: 50%;
+    margin-left: 21px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(codicon_list-filter.png)
+}
+
+.navbar-toggler{
+    margin-top: 5px;
+
+ }
+
+.logo {
+    width: 25%;
+    margin-left: -10px;
+}
+
+.navbar {
+    background-color: #BCC5E4;
+    width: 50%;
+}
+
+.navbar-brand {
+    margin-right: -120px;
+    margin-left: 20px;
+}
+
+.page {
+    color: #58639A;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: -5px;
+}
+
+.dropdown-item {
+    color: #58639A;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.dropdown-menu {
+    background-color: #F8FAFD;
+}
+
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link {
+    color: #F8FAFD;
+}
+
+.dropdown-item:hover {
+    background-color: #58639A;
+    color: #F8FAFD;
+}
+
+.nav-item {
+    margin-left: -10px;
+}
+
+.navbar-toggler {
+    color: #58639A;
+}
+
+.goTop {
+    position: fixed;
+    right: 0px;
+    bottom: 30px;
+    transform: translateX(0);
+    transition: transform 0.2s;
+}
+
+.tablet5 {
+    width: 30%;
+}
+
+.hide {
+    transform: translateX(120%);
+}
+
+.maintitle4 {
+    color: #F8FAFD;
+    font-size: 21px;
+    letter-spacing: 10px;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.navbar-toggler {
+    color: #58639A;
+}
+
+.disappear {
+    opacity: 0;
+}
+
+#submit_Btn:hover {
+    box-shadow: 10px 10px 30px -5px #535051;
+}
+
+.title2:hover {
+    color: #BCC5E4;
+}
+
+.title22:hover {
+    color: #BCC5E4;
+}
+
+.maintitle:hover {
+    color: #BCC5E4;
+}
+
+.content2:hover {
+    color: #F8FAFD;
+}
+
+.content4:hover {
+    color: #F8FAFD;
+}
